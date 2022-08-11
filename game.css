@@ -23,8 +23,8 @@
 }
 #score{
     position: absolute;
-    top: 10%;
-    right: 20%;
+    top: 5%;
+    right: 10%;
     color: whitesmoke;
     font-size: 18px;
     font-weight: bold;
@@ -60,6 +60,9 @@
     cursor: pointer;
 }
 #inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 20px 0px;
     color: whitesmoke;
     font-weight: bold;
@@ -72,7 +75,7 @@
     font-weight: bold;
     border-radius: 5px;
     text-align: center;
-    margin: 20px 2px;
+    margin: 5px 2px;
     background-color: azure;
     border: none;
     border-bottom: 1px solid black;
